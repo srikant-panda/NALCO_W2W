@@ -1,0 +1,19 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "FastAPI backend for the NALCO Waste-to-Wealth marketplace"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic>=1.13.2",
+    "asyncpg>=0.29.0",
+    "fastapi>=0.111.0",
+    "greenlet>=3.0.3",
+    "httpx>=0.27.0",
+    "passlib[bcrypt]>=1.7.4",
+    "pydantic-settings>=2.3.4",
+    "python-dotenv>=1.0.1",
+    "python-jose[cryptography]>=3.3.0",
+    "sqlalchemy>=2.0.31",
+    "uvicorn[standard]>=0.30.1",
+]
