@@ -34,3 +34,5 @@ backend/.coverage
 backend/htmlcov/
 backend/dist/
 backend/build/
+backend/.env.local
+backend/.env
